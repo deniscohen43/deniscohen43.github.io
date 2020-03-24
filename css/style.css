@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #363636 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3e3c42 !important;
+  }
+}
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(75, 70, 70, 0.747), rgba(2, 2, 2, 0.767) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(75, 70, 70, 0.747), rgba(2, 2, 2, 0.767) 100%);
+  background: linear-gradient(to 45deg, rgba(75, 70, 70, 0.747), rgba(2, 2, 2, 0.767) 100%);
+}
