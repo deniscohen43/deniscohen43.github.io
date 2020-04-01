@@ -1,3 +1,13 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.col {
+  flex: 25%;
+  padding: 20px;
+}
 
 body {
     font-family: 'Oswald', sans-serif !important;
